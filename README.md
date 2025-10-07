@@ -18,5 +18,11 @@ dotnet new sln -n "NomeDaSolução"
 ``` powershell
 dotnet new maui -n "NomeDoProjeto"
 ```
+3. Adiciona o projeto a solução
+``` powershell
+dotnet sln add "NomeDoProjeto/"NomeDoProjeto".csproj
+```
+Este é o passo crucial! Você precisa "avisar" a solução que esse novo projeto faz parte dela.
+**Obs:** O projeto deverá ser manipulado no **Solution Explorer** do Vs Code
 ### Caso deseje criar direto pelo Visual studio Code
 1. 
